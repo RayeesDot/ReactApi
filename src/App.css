@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+html,body,#root{
+  height: 100%;
+}
+body{
+  background: -webkit-linear-gradient( #c9d6ff, #e2e2e2);
+  font-family: "Rubik", sans-serif !important;
+}
+.common-card{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+
+}
+ input{
+ border: 1px solid rgba(0, 0, 0, 0.322) !important;
+}
+
+.center{
+  text-align: center;
+}
+.bg{
+  background-color: black;
+  padding: 8px;
+}
+.d-flex{
+  display: flex;
+  gap: 80px;
+}
+ .color-white{
+  color: white;
+ }
+ .text-decoration-none{
+  text-decoration: none;
+ }
+ ul li{
+list-style: none;
+ }
